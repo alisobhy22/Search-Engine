@@ -1,0 +1,40 @@
+﻿  Graph.cpp
+F:\AUC\Analysis lab\Project\Search Engine\Search Engine\Graph.cpp(8,23): warning C4018: '<': signed/unsigned mismatch
+F:\AUC\Analysis lab\Project\Search Engine\Search Engine\Graph.cpp(22,27): warning C4018: '<': signed/unsigned mismatch
+F:\AUC\Analysis lab\Project\Search Engine\Search Engine\Graph.cpp(30,23): warning C4018: '<': signed/unsigned mismatch
+F:\AUC\Analysis lab\Project\Search Engine\Search Engine\Graph.cpp(36,27): warning C4018: '<': signed/unsigned mismatch
+F:\AUC\Analysis lab\Project\Search Engine\Search Engine\Graph.cpp(56,34): warning C4018: '<': signed/unsigned mismatch
+F:\AUC\Analysis lab\Project\Search Engine\Search Engine\Graph.cpp(72,31): warning C4018: '<': signed/unsigned mismatch
+F:\AUC\Analysis lab\Project\Search Engine\Search Engine\Graph.cpp(67,16): warning C4101: 'j': unreferenced local variable
+F:\AUC\Analysis lab\Project\Search Engine\Search Engine\Graph.cpp(67,13): warning C4101: 'i': unreferenced local variable
+F:\AUC\Analysis lab\Project\Search Engine\Search Engine\Graph.cpp(83,23): warning C4018: '<': signed/unsigned mismatch
+  Search Engine.cpp
+F:\AUC\Analysis lab\Project\Search Engine\Search Engine\Search Engine.cpp(50,31): warning C4018: '<': signed/unsigned mismatch
+F:\AUC\Analysis lab\Project\Search Engine\Search Engine\Search Engine.cpp(68,52): warning C4018: '>': signed/unsigned mismatch
+F:\AUC\Analysis lab\Project\Search Engine\Search Engine\Search Engine.cpp(145,23): warning C4018: '<': signed/unsigned mismatch
+F:\AUC\Analysis lab\Project\Search Engine\Search Engine\Search Engine.cpp(154,19): warning C4018: '<': signed/unsigned mismatch
+F:\AUC\Analysis lab\Project\Search Engine\Search Engine\Search Engine.cpp(173,23): warning C4018: '<': signed/unsigned mismatch
+F:\AUC\Analysis lab\Project\Search Engine\Search Engine\Search Engine.cpp(182,19): warning C4018: '<': signed/unsigned mismatch
+F:\AUC\Analysis lab\Project\Search Engine\Search Engine\Search Engine.cpp(200,23): warning C4018: '<': signed/unsigned mismatch
+F:\AUC\Analysis lab\Project\Search Engine\Search Engine\Search Engine.cpp(207,16): warning C4018: '<': signed/unsigned mismatch
+F:\AUC\Analysis lab\Project\Search Engine\Search Engine\Search Engine.cpp(211,41): warning C4018: '<': signed/unsigned mismatch
+F:\AUC\Analysis lab\Project\Search Engine\Search Engine\Search Engine.cpp(223,23): warning C4018: '<': signed/unsigned mismatch
+F:\AUC\Analysis lab\Project\Search Engine\Search Engine\Search Engine.cpp(259,27): warning C4018: '<': signed/unsigned mismatch
+F:\AUC\Analysis lab\Project\Search Engine\Search Engine\Search Engine.cpp(301,14): warning C4018: '<': signed/unsigned mismatch
+F:\AUC\Analysis lab\Project\Search Engine\Search Engine\Search Engine.cpp(304,45): warning C4018: '<': signed/unsigned mismatch
+F:\AUC\Analysis lab\Project\Search Engine\Search Engine\Search Engine.cpp(312,19): warning C4018: '<': signed/unsigned mismatch
+F:\AUC\Analysis lab\Project\Search Engine\Search Engine\Search Engine.cpp(333,23): warning C4018: '<': signed/unsigned mismatch
+F:\AUC\Analysis lab\Project\Search Engine\Search Engine\Search Engine.cpp(337,31): warning C4018: '<': signed/unsigned mismatch
+F:\AUC\Analysis lab\Project\Search Engine\Search Engine\Search Engine.cpp(341,35): warning C4018: '<': signed/unsigned mismatch
+F:\AUC\Analysis lab\Project\Search Engine\Search Engine\Search Engine.cpp(344,35): warning C4018: '<': signed/unsigned mismatch
+F:\AUC\Analysis lab\Project\Search Engine\Search Engine\Search Engine.cpp(356,31): warning C4018: '<': signed/unsigned mismatch
+F:\AUC\Analysis lab\Project\Search Engine\Search Engine\Search Engine.cpp(359,35): warning C4018: '<': signed/unsigned mismatch
+F:\AUC\Analysis lab\Project\Search Engine\Search Engine\Search Engine.cpp(382,31): warning C4018: '<': signed/unsigned mismatch
+F:\AUC\Analysis lab\Project\Search Engine\Search Engine\Search Engine.cpp(384,35): warning C4018: '<': signed/unsigned mismatch
+F:\AUC\Analysis lab\Project\Search Engine\Search Engine\Search Engine.cpp(403,19): warning C4018: '<': signed/unsigned mismatch
+F:\AUC\Analysis lab\Project\Search Engine\Search Engine\Search Engine.cpp(404,23): warning C4018: '<': signed/unsigned mismatch
+F:\AUC\Analysis lab\Project\Search Engine\Search Engine\Search Engine.cpp(414,23): warning C4018: '<': signed/unsigned mismatch
+F:\AUC\Analysis lab\Project\Search Engine\Search Engine\Search Engine.cpp(421,23): warning C4018: '<': signed/unsigned mismatch
+F:\AUC\Analysis lab\Project\Search Engine\Search Engine\Search Engine.cpp(426,23): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+  Search Engine.vcxproj -> F:\AUC\Analysis lab\Project\Search Engine\Debug\Search Engine.exe

@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\AUC\Analysis lab\Project\Search Engine\Search Engine\</FILEPATH>
+      <FILENAME>Graph.h</FILENAME>
+      <LINE>16</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'website_node::score' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>website_node::{ctor}</FUNCTION>
+    <DECORATED>??0website_node@@QAE@XZ</DECORATED>
+    <FUNCLINE>16</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>website_node::score</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\AUC\Analysis lab\Project\Search Engine\Search Engine\</FILEPATH>
+      <FILENAME>Graph.h</FILENAME>
+      <LINE>16</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'website_node::id' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>website_node::{ctor}</FUNCTION>
+    <DECORATED>??0website_node@@QAE@XZ</DECORATED>
+    <FUNCLINE>16</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>website_node::id</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\AUC\Analysis lab\Project\Search Engine\Search Engine\</FILEPATH>
+      <FILENAME>Graph.h</FILENAME>
+      <LINE>16</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'website_node::impressions' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>website_node::{ctor}</FUNCTION>
+    <DECORATED>??0website_node@@QAE@XZ</DECORATED>
+    <FUNCLINE>16</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>website_node::impressions</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\AUC\Analysis lab\Project\Search Engine\Search Engine\</FILEPATH>
+      <FILENAME>Graph.h</FILENAME>
+      <LINE>16</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'website_node::click_throughs' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>website_node::{ctor}</FUNCTION>
+    <DECORATED>??0website_node@@QAE@XZ</DECORATED>
+    <FUNCLINE>16</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>website_node::click_throughs</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\AUC\Analysis lab\Project\Search Engine\Search Engine\</FILEPATH>
+      <FILENAME>Graph.h</FILENAME>
+      <LINE>16</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'website_node::ctr' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>website_node::{ctor}</FUNCTION>
+    <DECORATED>??0website_node@@QAE@XZ</DECORATED>
+    <FUNCLINE>16</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>website_node::ctr</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\AUC\Analysis lab\Project\Search Engine\Search Engine\</FILEPATH>
+      <FILENAME>Graph.h</FILENAME>
+      <LINE>16</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'website_node::page_rank' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>website_node::{ctor}</FUNCTION>
+    <DECORATED>??0website_node@@QAE@XZ</DECORATED>
+    <FUNCLINE>16</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>website_node::page_rank</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\AUC\Analysis lab\Project\Search Engine\Search Engine\</FILEPATH>
+      <FILENAME>Search Engine.cpp</FILENAME>
+      <LINE>275</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'source'. </DESCRIPTION>
+    <FUNCTION>create_graph</FUNCTION>
+    <DECORATED>?create_graph@@YA?AVGraph@@AAV?$vector@Uwebsite_node@@V?$allocator@Uwebsite_node@@@std@@@std@@@Z</DECORATED>
+    <FUNCLINE>228</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\AUC\Analysis lab\Project\Search Engine\Search Engine\</FILEPATH>
+        <FILENAME>Search Engine.cpp</FILENAME>
+        <LINE>230</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\AUC\Analysis lab\Project\Search Engine\Search Engine\</FILEPATH>
+        <FILENAME>Search Engine.cpp</FILENAME>
+        <LINE>231</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\AUC\Analysis lab\Project\Search Engine\Search Engine\</FILEPATH>
+        <FILENAME>Search Engine.cpp</FILENAME>
+        <LINE>232</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\AUC\Analysis lab\Project\Search Engine\Search Engine\</FILEPATH>
+        <FILENAME>Search Engine.cpp</FILENAME>
+        <LINE>233</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\AUC\Analysis lab\Project\Search Engine\Search Engine\</FILEPATH>
+        <FILENAME>Search Engine.cpp</FILENAME>
+        <LINE>238</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'source' is NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\AUC\Analysis lab\Project\Search Engine\Search Engine\</FILEPATH>
+        <FILENAME>Search Engine.cpp</FILENAME>
+        <LINE>239</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\AUC\Analysis lab\Project\Search Engine\Search Engine\</FILEPATH>
+        <FILENAME>Search Engine.cpp</FILENAME>
+        <LINE>240</LINE>
+        <COLUMN>11</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume '!input.eof()')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\AUC\Analysis lab\Project\Search Engine\Search Engine\</FILEPATH>
+        <FILENAME>Search Engine.cpp</FILENAME>
+        <LINE>242</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\AUC\Analysis lab\Project\Search Engine\Search Engine\</FILEPATH>
+        <FILENAME>Search Engine.cpp</FILENAME>
+        <LINE>243</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\AUC\Analysis lab\Project\Search Engine\Search Engine\</FILEPATH>
+        <FILENAME>Search Engine.cpp</FILENAME>
+        <LINE>244</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\AUC\Analysis lab\Project\Search Engine\Search Engine\</FILEPATH>
+        <FILENAME>Search Engine.cpp</FILENAME>
+        <LINE>245</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\AUC\Analysis lab\Project\Search Engine\Search Engine\</FILEPATH>
+        <FILENAME>Search Engine.cpp</FILENAME>
+        <LINE>246</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\AUC\Analysis lab\Project\Search Engine\Search Engine\</FILEPATH>
+        <FILENAME>Search Engine.cpp</FILENAME>
+        <LINE>247</LINE>
+        <COLUMN>23</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'line[](i)!=44' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\AUC\Analysis lab\Project\Search Engine\Search Engine\</FILEPATH>
+        <FILENAME>Search Engine.cpp</FILENAME>
+        <LINE>253</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\AUC\Analysis lab\Project\Search Engine\Search Engine\</FILEPATH>
+        <FILENAME>Search Engine.cpp</FILENAME>
+        <LINE>254</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\AUC\Analysis lab\Project\Search Engine\Search Engine\</FILEPATH>
+        <FILENAME>Search Engine.cpp</FILENAME>
+        <LINE>259</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\AUC\Analysis lab\Project\Search Engine\Search Engine\</FILEPATH>
+        <FILENAME>Search Engine.cpp</FILENAME>
+        <LINE>259</LINE>
+        <COLUMN>26</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'i&lt;websites.size()' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\AUC\Analysis lab\Project\Search Engine\Search Engine\</FILEPATH>
+        <FILENAME>Search Engine.cpp</FILENAME>
+        <LINE>274</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\AUC\Analysis lab\Project\Search Engine\Search Engine\</FILEPATH>
+        <FILENAME>Search Engine.cpp</FILENAME>
+        <LINE>275</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'source' is an Output from 'website_node::=' (declared at c:\auc\analysis lab\project\search engine\search engine\graph.h:16)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\AUC\Analysis lab\Project\Search Engine\Search Engine\</FILEPATH>
+        <FILENAME>Search Engine.cpp</FILENAME>
+        <LINE>275</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'source' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\AUC\Analysis lab\Project\Search Engine\Search Engine\</FILEPATH>
+      <FILENAME>Search Engine.cpp</FILENAME>
+      <LINE>276</LINE>
+      <COLUMN>25</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'destination'. </DESCRIPTION>
+    <FUNCTION>create_graph</FUNCTION>
+    <DECORATED>?create_graph@@YA?AVGraph@@AAV?$vector@Uwebsite_node@@V?$allocator@Uwebsite_node@@@std@@@std@@@Z</DECORATED>
+    <FUNCLINE>228</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\AUC\Analysis lab\Project\Search Engine\Search Engine\</FILEPATH>
+        <FILENAME>Search Engine.cpp</FILENAME>
+        <LINE>230</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\AUC\Analysis lab\Project\Search Engine\Search Engine\</FILEPATH>
+        <FILENAME>Search Engine.cpp</FILENAME>
+        <LINE>231</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\AUC\Analysis lab\Project\Search Engine\Search Engine\</FILEPATH>
+        <FILENAME>Search Engine.cpp</FILENAME>
+        <LINE>232</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\AUC\Analysis lab\Project\Search Engine\Search Engine\</FILEPATH>
+        <FILENAME>Search Engine.cpp</FILENAME>
+        <LINE>233</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\AUC\Analysis lab\Project\Search Engine\Search Engine\</FILEPATH>
+        <FILENAME>Search Engine.cpp</FILENAME>
+        <LINE>238</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\AUC\Analysis lab\Project\Search Engine\Search Engine\</FILEPATH>
+        <FILENAME>Search Engine.cpp</FILENAME>
+        <LINE>239</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'destination' is NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\AUC\Analysis lab\Project\Search Engine\Search Engine\</FILEPATH>
+        <FILENAME>Search Engine.cpp</FILENAME>
+        <LINE>240</LINE>
+        <COLUMN>11</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume '!input.eof()')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\AUC\Analysis lab\Project\Search Engine\Search Engine\</FILEPATH>
+        <FILENAME>Search Engine.cpp</FILENAME>
+        <LINE>242</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\AUC\Analysis lab\Project\Search Engine\Search Engine\</FILEPATH>
+        <FILENAME>Search Engine.cpp</FILENAME>
+        <LINE>243</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\AUC\Analysis lab\Project\Search Engine\Search Engine\</FILEPATH>
+        <FILENAME>Search Engine.cpp</FILENAME>
+        <LINE>244</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\AUC\Analysis lab\Project\Search Engine\Search Engine\</FILEPATH>
+        <FILENAME>Search Engine.cpp</FILENAME>
+        <LINE>245</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\AUC\Analysis lab\Project\Search Engine\Search Engine\</FILEPATH>
+        <FILENAME>Search Engine.cpp</FILENAME>
+        <LINE>246</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\AUC\Analysis lab\Project\Search Engine\Search Engine\</FILEPATH>
+        <FILENAME>Search Engine.cpp</FILENAME>
+        <LINE>247</LINE>
+        <COLUMN>23</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'line[](i)!=44' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\AUC\Analysis lab\Project\Search Engine\Search Engine\</FILEPATH>
+        <FILENAME>Search Engine.cpp</FILENAME>
+        <LINE>253</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\AUC\Analysis lab\Project\Search Engine\Search Engine\</FILEPATH>
+        <FILENAME>Search Engine.cpp</FILENAME>
+        <LINE>254</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\AUC\Analysis lab\Project\Search Engine\Search Engine\</FILEPATH>
+        <FILENAME>Search Engine.cpp</FILENAME>
+        <LINE>259</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\AUC\Analysis lab\Project\Search Engine\Search Engine\</FILEPATH>
+        <FILENAME>Search Engine.cpp</FILENAME>
+        <LINE>259</LINE>
+        <COLUMN>26</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'i&lt;websites.size()' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\AUC\Analysis lab\Project\Search Engine\Search Engine\</FILEPATH>
+        <FILENAME>Search Engine.cpp</FILENAME>
+        <LINE>274</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\AUC\Analysis lab\Project\Search Engine\Search Engine\</FILEPATH>
+        <FILENAME>Search Engine.cpp</FILENAME>
+        <LINE>275</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\AUC\Analysis lab\Project\Search Engine\Search Engine\</FILEPATH>
+        <FILENAME>Search Engine.cpp</FILENAME>
+        <LINE>276</LINE>
+        <COLUMN>25</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'destination' is an Output from 'website_node::=' (declared at c:\auc\analysis lab\project\search engine\search engine\graph.h:16)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\AUC\Analysis lab\Project\Search Engine\Search Engine\</FILEPATH>
+        <FILENAME>Search Engine.cpp</FILENAME>
+        <LINE>276</LINE>
+        <COLUMN>25</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'destination' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>
